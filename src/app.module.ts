@@ -14,8 +14,9 @@ import { UnidadModule } from './modules/unidad/unidad.module';
 
 
 
+
 @Module({
-  imports: [CiudadModule, TipoEmpresaModule, ProveedorModule, PersonaModule, UsuarioModule, ServicioModule, SolicitudModule, TipoServicioModule, AreaModule, UnidadModule, ],
+  imports: [CiudadModule, TipoEmpresaModule, ProveedorModule, PersonaModule, UsuarioModule, ServicioModule, SolicitudModule, TipoServicioModule, AreaModule, UnidadModule, CiudadModule],
   controllers: [AppController],
   providers: [AppService],
 })
